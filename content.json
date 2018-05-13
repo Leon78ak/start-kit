@@ -1,0 +1,33 @@
+{
+  "navPages": [
+    {
+      "name": "Обо мне",
+      "address": "#about"
+    },
+    {
+      "name": "Портфолио",
+      "address": "#portfolio"
+    },
+    {
+      "name": "Контакты",
+      "address": "#contacts"
+    }
+  ],
+  "socials": [
+    {
+      "name": "fb",
+      "link": "https://",
+      "title": "Я в фэйсбук"
+    },
+    {
+      "name": "twitter",
+      "link": "https://",
+      "title": "Я в твиттер"
+    },
+    {
+      "name": "vk",
+      "link": "https://vk.com/",
+      "title": "Я в контакте"
+    }
+  ]
+}

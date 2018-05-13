@@ -1,0 +1,28 @@
+include ./blocks/_mixins
+
+doctype html
+html(lang='ru')
+  head
+    meta(charset="utf-8")
+    title start-project
+    meta(content="" name="author")
+    meta(content="" name="description")
+    meta(content="" name="keywords")
+    meta(content="width=device-width, initial-scale=1" name="viewport")
+    meta(content="ie=edge" http-equiv="x-ua-compatible")
+
+    //- favicon block start
+    //- favicon block end
+    link(rel='stylesheet' href='css/main.css')
+
+  body
+
+    h1 my start page
+
+    include ./blocks/header
+
+    main.page-main
+
+    include ./blocks/footer
+
+    script(src="js/main.min.js")
